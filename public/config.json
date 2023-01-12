@@ -1,0 +1,90 @@
+{
+    "title": "Trafflytic",
+    "static": "./",
+    "default": "Summary",
+    "placeholderImage":"https://api.adlytic.ai/uploads/client/1656417284543lexmark-region.jpg",
+    "menu": [
+        {
+            "path": "/",
+            "label": "Home",
+            "icon": "Home"
+        },
+        {
+            "path": "/settings",
+            "label": "Settings",
+            "icon": "Settings"
+        },
+        {
+            "path": "/profile",
+            "label": "Account",
+            "icon": "User"
+        }
+    ],
+    "data": {
+        "key": "traffic",
+        "short": "EN",
+        "label": "Traffic",
+        "entities": {
+            "entry": "Entry",
+            "exit": "Exit"
+        },
+        "index": {
+            "exit": 0,
+            "entry": 1
+        }
+    },
+    "settings": {
+        "configuration": {
+            "isStream": true,
+            "entry": true,
+            "exit": true,
+            "isConfidence": true
+        }
+    },
+    "themeColor": {
+        "active": "#fff6eb",
+        "primary": "#ff7300",
+        "silver": "#ced4da",
+        "danger": "#f34446",
+        "dark": "#000",
+        "light": "#fff",
+        "background":"#f5f5f5"
+    },
+    "tutorialSteps":[
+        {
+          "target": "#confidenceLabel",
+          "disableBeacon": true,
+          "content": "This value controlls the sensitivity of object detection. Larger value means strict conditions for detection."
+          
+        },
+        {
+          "target": "#streamLinkLabel",
+          "content": "Please provide an RTSP stream URL. For example: rtsp://username:password@domain:port"
+        },
+        {
+          "target": "#entryButton",
+          "content": "Use the “Draw Entry” button to open a popup window to draw a region of interest. And incoming person will step in this region after Exit region."
+        },
+        {
+          "target": "#exitButton",
+          "content": "Use the “Draw Exit” button to open a popup window to draw a region of interest. An incoming person will step in this region first."
+        },
+        {
+          "target": "#streamProcessLabel",
+          "content": "This checkbox signals the backend to start processing."
+        },
+        {
+          "target": "#restartSystemLabel",
+          "content": "This checkbox signals the backend to restart the system."
+        },
+        {
+          "target": "#resetSystemLabel",
+          "content": "This button will reset all the settings to default values."
+        },
+        {
+            "target": "#saveSettingLabel",
+            "content": "The Save Settings” button saves all the changes made into the database"
+          }
+      ]
+
+}

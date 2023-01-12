@@ -1,0 +1,103 @@
+.main_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #DFE0EB;
+    padding-right: 66px;
+    padding-left: 55px;
+
+
+}
+
+.logo {
+    padding-top: 33px;
+    padding-bottom: 24px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    cursor: pointer;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    justify-content: flex-end;
+}
+
+.icon {
+    color: #C5C7CD;
+    position: relative;
+    cursor: pointer;
+}
+
+.dot {
+    height: 6px;
+    position: absolute;
+    width: 6px;
+    background-color: #2D7BF2;
+    border-radius: 50%;
+    top: 3px;
+    right: 0;
+}
+
+.line {
+
+    height: 32px;
+    border: 1px solid #DFE0EB;
+}
+
+.login_btn {
+    border: 1px solid #E4E4E4;
+    border-radius: 17px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 6px;
+
+}
+
+.ant-space {
+    gap: 4px !important;
+    padding-right: 10px;
+
+}
+
+.ant-space-item {
+
+  
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252733;
+
+}
+
+.active_link{
+    color: #2D7BF2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+

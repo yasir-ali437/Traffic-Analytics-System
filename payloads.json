@@ -1,0 +1,72 @@
+{
+    "heatmap": [
+        {
+            "HM":"{'2022-05-16T07:46:46.245146Z': [[220, 220]]}"
+        }
+    ],
+    "footfall":[
+        {
+            "EN": 0
+        }
+    ],
+    "age":[
+        {
+            "A": 10
+        }
+    ],
+    "sage":[
+        {
+            "A": 0
+        }
+    ],
+    "gender":[
+        {
+            "GD": 0
+        }
+    ],
+    "sgender":[
+        {
+            "GD": 0
+        }
+    ],
+    "mask":[
+        {
+            "MK": 0
+        }
+    ],
+    "smask":[
+        {
+            "MK": 0
+        }
+    ],
+    "emotions":[
+        {
+            "E": 0
+        }
+    ],
+    "intrusion":[
+        {
+            "I": "/upload/screenshot.png"
+        }
+    ],
+    "drive":[
+        {
+            "I": "/upload/screenshot.png"
+        }
+    ],
+    "journey":[
+        {
+            "EN": 1,
+            "DIR": 1
+        }
+    ],
+    "queue":[
+        {
+            "Q":{
+                "xxxxxx": 123,
+                "yyyyyy":2,
+                "zzzzzz":4
+            }
+        }
+    ]
+}

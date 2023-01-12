@@ -1,0 +1,49 @@
+.main_detail{
+    padding-left: 146px;
+padding-right: 174px;
+width: 100%;
+}
+
+
+.survey_topbar{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding-top: 63px;
+
+}
+
+.survey_text{
+display: flex;
+flex-direction: column;
+}
+
+.progress{
+
+    border-radius: 4px !important;
+}
+.progress-bar{
+   background-color: #D4F8D3 !important;
+}
+
+.survey_heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #1E1E1E;
+
+}
+
+.survey_basic_heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #737B8B;
+
+}

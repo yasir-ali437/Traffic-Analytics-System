@@ -1,0 +1,19 @@
+
+.form-control{
+    border-radius: 4px !important;
+}
+
+.form-control:focus{
+    border-color: #2D7BF2 !important;
+}
+
+.profile_label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+
+.form-control:-webkit-autofill {
+    -webkit-background-clip: text;
+}
